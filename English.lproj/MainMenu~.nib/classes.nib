@@ -1,0 +1,64 @@
+{
+    IBClasses = (
+        {CLASS = CustomWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancelCustomTimer = id; 
+                changeTransparency = id; 
+                doCustomTimer = id; 
+                hitSetHotKey = id; 
+                resetTimerIB = id; 
+                setWindowEdgeFromPreferences = id; 
+                startCustomTimer = id; 
+                stopTimer = id; 
+                useAlertNotification = id; 
+                useBounceIconNotification = id; 
+                useGrowlNotification = id; 
+                useStickyGrowlNotification = id; 
+            }; 
+            CLASS = MTController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alertNotificationSwitch = NSButton; 
+                bounceIconNotificationSwitch = NSButton; 
+                customTimerField = NSFormCell; 
+                customTimerForm = NSForm; 
+                customTimerMenu = NSMenuItem; 
+                customTimerView = NSView; 
+                edgeSelector = NSPopUpButton; 
+                growlNotificationSwitch = NSButton; 
+                hotKeyDisplay = NSTextField; 
+                preferencesWindow = NSWindow; 
+                stickyGrowlNotificationSwitch = NSButton; 
+                tBar = NSProgressIndicator; 
+                transparencySlider = NSSlider; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = MTWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                cancelCustomTimer = id; 
+                changeTransparency = id; 
+                doCustomTimer = id; 
+                resetTimerIB = id; 
+                setWindowEdgeFromPreferences = id; 
+                startCustomTimer = id; 
+                stopTimer = id; 
+            }; 
+            CLASS = TimerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                customTimerField = NSFormCell; 
+                customTimerForm = NSForm; 
+                customTimerView = NSView; 
+                edgeSelector = NSPopUpButton; 
+                tBar = NSProgressIndicator; 
+                transparencySlider = NSSlider; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

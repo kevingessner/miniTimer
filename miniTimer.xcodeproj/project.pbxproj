@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		BC1359F70A3E6433009EDAD2 /* MTTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1359F60A3E6433009EDAD2 /* MTTimeFormatter.m */; };
+		BC153A640C8CF2E3002F572B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC153A630C8CF2E3002F572B /* Carbon.framework */; };
+		BC1AB0E10CAD911100983BD3 /* miniTimer.icns in Resources */ = {isa = PBXBuildFile; fileRef = BC1AB0E00CAD911100983BD3 /* miniTimer.icns */; };
+		BC2103D10C72D0260056E85E /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B51B0C64C8E90010FE25 /* PTHotKey.m */; };
+		BC2103D20C72D0260056E85E /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B51D0C64C8E90010FE25 /* PTHotKeyCenter.m */; };
+		BC2103D30C72D0260056E85E /* PTKeyBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B51F0C64C8E90010FE25 /* PTKeyBroadcaster.m */; };
+		BC2103D40C72D0260056E85E /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B5210C64C8E90010FE25 /* PTKeyCodeTranslator.m */; };
+		BC2103D50C72D0260056E85E /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B5230C64C8E90010FE25 /* PTKeyCombo.m */; };
+		BC2103D60C72D0260056E85E /* PTKeyComboPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73B5250C64C8E90010FE25 /* PTKeyComboPanel.m */; };
+		BC2F8FD60C5FA86500442446 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = BC2F8FD50C5FA86500442446 /* Credits.html */; };
+		BC3755150C6429020096B616 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3755140C6429020096B616 /* Growl.framework */; };
+		BC3755210C6429250096B616 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC3755140C6429020096B616 /* Growl.framework */; };
+		BC52D0690A3DF14C00042735 /* MTController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC52D0680A3DF14C00042735 /* MTController.m */; };
+		BC52D06F0A3DF1E200042735 /* MTWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC52D06E0A3DF1E200042735 /* MTWindow.m */; };
+		BC5B86330C72BB5B008DC29C /* PTKeyComboPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = BC5B86310C72BB5B008DC29C /* PTKeyComboPanel.nib */; };
+		BC73B5260C64C8E90010FE25 /* PTHotKey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B51A0C64C8E90010FE25 /* PTHotKey.h */; };
+		BC73B5280C64C8E90010FE25 /* PTHotKeyCenter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B51C0C64C8E90010FE25 /* PTHotKeyCenter.h */; };
+		BC73B52A0C64C8E90010FE25 /* PTKeyBroadcaster.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B51E0C64C8E90010FE25 /* PTKeyBroadcaster.h */; };
+		BC73B52C0C64C8E90010FE25 /* PTKeyCodeTranslator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B5200C64C8E90010FE25 /* PTKeyCodeTranslator.h */; };
+		BC73B52E0C64C8E90010FE25 /* PTKeyCombo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B5220C64C8E90010FE25 /* PTKeyCombo.h */; };
+		BC73B5300C64C8E90010FE25 /* PTKeyComboPanel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC73B5240C64C8E90010FE25 /* PTKeyComboPanel.h */; };
+		BC73B5390C64C9840010FE25 /* PTKeyCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC73B5370C64C9840010FE25 /* PTKeyCodes.plist */; };
+		BC7967AD0C63E80000E55026 /* MTTimeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7967AC0C63E80000E55026 /* MTTimeCommand.m */; };
+		BC7967B30C63E82800E55026 /* MTResetCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7967B20C63E82800E55026 /* MTResetCommand.m */; };
+		BC7967B70C63E87600E55026 /* miniTimer.sdef in Resources */ = {isa = PBXBuildFile; fileRef = BC7967B60C63E87600E55026 /* miniTimer.sdef */; };
+		BCC371CA0E0D939000579045 /* help.htm in Resources */ = {isa = PBXBuildFile; fileRef = BCC371C80E0D939000579045 /* help.htm */; };
+		BCC371CB0E0D939000579045 /* miniTimer.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC371C90E0D939000579045 /* miniTimer.png */; };
+		BCD9FE3A0C7401840081A25A /* MTCustomTimerCommand.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCD9FE380C7401840081A25A /* MTCustomTimerCommand.h */; };
+		BCD9FE3B0C7401840081A25A /* MTCustomTimerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9FE390C7401840081A25A /* MTCustomTimerCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC37551F0C6429140096B616 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC3755210C6429250096B616 /* Growl.framework in CopyFiles */,
+				BC73B5260C64C8E90010FE25 /* PTHotKey.h in CopyFiles */,
+				BC73B5280C64C8E90010FE25 /* PTHotKeyCenter.h in CopyFiles */,
+				BC73B52A0C64C8E90010FE25 /* PTKeyBroadcaster.h in CopyFiles */,
+				BC73B52C0C64C8E90010FE25 /* PTKeyCodeTranslator.h in CopyFiles */,
+				BC73B52E0C64C8E90010FE25 /* PTKeyCombo.h in CopyFiles */,
+				BC73B5300C64C8E90010FE25 /* PTKeyComboPanel.h in CopyFiles */,
+				BCD9FE3A0C7401840081A25A /* MTCustomTimerCommand.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* miniTimer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = miniTimer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* miniTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1359F50A3E6433009EDAD2 /* MTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTimeFormatter.h; sourceTree = "<group>"; };
+		BC1359F60A3E6433009EDAD2 /* MTTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTimeFormatter.m; sourceTree = "<group>"; };
+		BC153A630C8CF2E3002F572B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		BC1AB0E00CAD911100983BD3 /* miniTimer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = miniTimer.icns; sourceTree = "<group>"; };
+		BC2F8FD50C5FA86500442446 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		BC2F90040C5FBAE800442446 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		BC3755140C6429020096B616 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		BC52D0670A3DF14C00042735 /* MTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTController.h; sourceTree = "<group>"; };
+		BC52D0680A3DF14C00042735 /* MTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTController.m; sourceTree = "<group>"; };
+		BC52D06D0A3DF1E200042735 /* MTWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MTWindow.h; sourceTree = "<group>"; };
+		BC52D06E0A3DF1E200042735 /* MTWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MTWindow.m; sourceTree = "<group>"; };
+		BC5B86320C72BB5B008DC29C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PTKeyComboPanel.nib; sourceTree = "<group>"; };
+		BC73B51A0C64C8E90010FE25 /* PTHotKey.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTHotKey.h; sourceTree = "<group>"; };
+		BC73B51B0C64C8E90010FE25 /* PTHotKey.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTHotKey.m; sourceTree = "<group>"; };
+		BC73B51C0C64C8E90010FE25 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTHotKeyCenter.h; sourceTree = "<group>"; };
+		BC73B51D0C64C8E90010FE25 /* PTHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTHotKeyCenter.m; sourceTree = "<group>"; };
+		BC73B51E0C64C8E90010FE25 /* PTKeyBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTKeyBroadcaster.h; sourceTree = "<group>"; };
+		BC73B51F0C64C8E90010FE25 /* PTKeyBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTKeyBroadcaster.m; sourceTree = "<group>"; };
+		BC73B5200C64C8E90010FE25 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		BC73B5210C64C8E90010FE25 /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		BC73B5220C64C8E90010FE25 /* PTKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTKeyCombo.h; sourceTree = "<group>"; };
+		BC73B5230C64C8E90010FE25 /* PTKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTKeyCombo.m; sourceTree = "<group>"; };
+		BC73B5240C64C8E90010FE25 /* PTKeyComboPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PTKeyComboPanel.h; sourceTree = "<group>"; };
+		BC73B5250C64C8E90010FE25 /* PTKeyComboPanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PTKeyComboPanel.m; sourceTree = "<group>"; };
+		BC73B5380C64C9840010FE25 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/PTKeyCodes.plist; sourceTree = "<group>"; };
+		BC7967AB0C63E80000E55026 /* MTTimeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTimeCommand.h; sourceTree = "<group>"; };
+		BC7967AC0C63E80000E55026 /* MTTimeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTimeCommand.m; sourceTree = "<group>"; };
+		BC7967B10C63E82800E55026 /* MTResetCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTResetCommand.h; sourceTree = "<group>"; };
+		BC7967B20C63E82800E55026 /* MTResetCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTResetCommand.m; sourceTree = "<group>"; };
+		BC7967B60C63E87600E55026 /* miniTimer.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = miniTimer.sdef; sourceTree = "<group>"; };
+		BCC371C80E0D939000579045 /* help.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.htm; sourceTree = "<group>"; };
+		BCC371C90E0D939000579045 /* miniTimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniTimer.png; sourceTree = "<group>"; };
+		BCD9FE380C7401840081A25A /* MTCustomTimerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomTimerCommand.h; sourceTree = "<group>"; };
+		BCD9FE390C7401840081A25A /* MTCustomTimerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomTimerCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				BC3755150C6429020096B616 /* Growl.framework in Frameworks */,
+				BC153A640C8CF2E3002F572B /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC7967AB0C63E80000E55026 /* MTTimeCommand.h */,
+				BC7967AC0C63E80000E55026 /* MTTimeCommand.m */,
+				BCD9FE380C7401840081A25A /* MTCustomTimerCommand.h */,
+				BCD9FE390C7401840081A25A /* MTCustomTimerCommand.m */,
+				BC52D06D0A3DF1E200042735 /* MTWindow.h */,
+				BC52D06E0A3DF1E200042735 /* MTWindow.m */,
+				BC52D0670A3DF14C00042735 /* MTController.h */,
+				BC52D0680A3DF14C00042735 /* MTController.m */,
+				BC1359F50A3E6433009EDAD2 /* MTTimeFormatter.h */,
+				BC1359F60A3E6433009EDAD2 /* MTTimeFormatter.m */,
+				BC7967B10C63E82800E55026 /* MTResetCommand.h */,
+				BC7967B20C63E82800E55026 /* MTResetCommand.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC153A630C8CF2E3002F572B /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3755140C6429020096B616 /* Growl.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* miniTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* miniTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BC73B5170C64C8CF0010FE25 /* PTHotKeyLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BC2F90040C5FBAE800442446 /* Tests-Info.plist */,
+			);
+			name = miniTimer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* miniTimer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCC371C70E0D938200579045 /* Help */,
+				BC1AB0E00CAD911100983BD3 /* miniTimer.icns */,
+				BC7967B60C63E87600E55026 /* miniTimer.sdef */,
+				BC2F8FD50C5FA86500442446 /* Credits.html */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC73B5170C64C8CF0010FE25 /* PTHotKeyLib */ = {
+			isa = PBXGroup;
+			children = (
+				BC5B86310C72BB5B008DC29C /* PTKeyComboPanel.nib */,
+				BC73B5370C64C9840010FE25 /* PTKeyCodes.plist */,
+				BC73B51A0C64C8E90010FE25 /* PTHotKey.h */,
+				BC73B51B0C64C8E90010FE25 /* PTHotKey.m */,
+				BC73B51C0C64C8E90010FE25 /* PTHotKeyCenter.h */,
+				BC73B51D0C64C8E90010FE25 /* PTHotKeyCenter.m */,
+				BC73B51E0C64C8E90010FE25 /* PTKeyBroadcaster.h */,
+				BC73B51F0C64C8E90010FE25 /* PTKeyBroadcaster.m */,
+				BC73B5200C64C8E90010FE25 /* PTKeyCodeTranslator.h */,
+				BC73B5210C64C8E90010FE25 /* PTKeyCodeTranslator.m */,
+				BC73B5220C64C8E90010FE25 /* PTKeyCombo.h */,
+				BC73B5230C64C8E90010FE25 /* PTKeyCombo.m */,
+				BC73B5240C64C8E90010FE25 /* PTKeyComboPanel.h */,
+				BC73B5250C64C8E90010FE25 /* PTKeyComboPanel.m */,
+			);
+			name = PTHotKeyLib;
+			sourceTree = "<group>";
+		};
+		BCC371C70E0D938200579045 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				BCC371C80E0D939000579045 /* help.htm */,
+				BCC371C90E0D939000579045 /* miniTimer.png */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* miniTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "miniTimer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				BC37551F0C6429140096B616 /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miniTimer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = miniTimer;
+			productReference = 8D1107320486CEB800E47090 /* miniTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "miniTimer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* miniTimer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* miniTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				BC2F8FD60C5FA86500442446 /* Credits.html in Resources */,
+				BC7967B70C63E87600E55026 /* miniTimer.sdef in Resources */,
+				BC73B5390C64C9840010FE25 /* PTKeyCodes.plist in Resources */,
+				BC5B86330C72BB5B008DC29C /* PTKeyComboPanel.nib in Resources */,
+				BC1AB0E10CAD911100983BD3 /* miniTimer.icns in Resources */,
+				BCC371CA0E0D939000579045 /* help.htm in Resources */,
+				BCC371CB0E0D939000579045 /* miniTimer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				BC52D0690A3DF14C00042735 /* MTController.m in Sources */,
+				BC52D06F0A3DF1E200042735 /* MTWindow.m in Sources */,
+				BC1359F70A3E6433009EDAD2 /* MTTimeFormatter.m in Sources */,
+				BC7967AD0C63E80000E55026 /* MTTimeCommand.m in Sources */,
+				BC7967B30C63E82800E55026 /* MTResetCommand.m in Sources */,
+				BC2103D10C72D0260056E85E /* PTHotKey.m in Sources */,
+				BC2103D20C72D0260056E85E /* PTHotKeyCenter.m in Sources */,
+				BC2103D30C72D0260056E85E /* PTKeyBroadcaster.m in Sources */,
+				BC2103D40C72D0260056E85E /* PTKeyCodeTranslator.m in Sources */,
+				BC2103D50C72D0260056E85E /* PTKeyCombo.m in Sources */,
+				BC2103D60C72D0260056E85E /* PTKeyComboPanel.m in Sources */,
+				BCD9FE3B0C7401840081A25A /* MTCustomTimerCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		BC5B86310C72BB5B008DC29C /* PTKeyComboPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5B86320C72BB5B008DC29C /* English */,
+			);
+			name = PTKeyComboPanel.nib;
+			sourceTree = "<group>";
+		};
+		BC73B5370C64C9840010FE25 /* PTKeyCodes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC73B5380C64C9840010FE25 /* English */,
+			);
+			name = PTKeyCodes.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = miniTimer;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				PRODUCT_NAME = miniTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "miniTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "miniTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

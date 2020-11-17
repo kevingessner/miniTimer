@@ -1,0 +1,144 @@
+// !$*UTF8*$!
+{
+	0A0E6CDD118231F9009A8B21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC52D0680A3DF14C00042735 /* MTController.m */;
+		rLen = 1;
+		rLoc = 339;
+		rType = 1;
+	};
+	0A0E6CDE118231F9009A8B21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC52D0680A3DF14C00042735 /* MTController.m */;
+		name = "MTController.m: 347";
+		rLen = 0;
+		rLoc = 13047;
+		rType = 0;
+		vrLen = 1930;
+		vrLoc = 11825;
+	};
+	0AF60E08117BB45C0047E47D /* miniTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = miniTimer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0AF60E10117BB47A0047E47D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0AF60E11117BB47A0047E47D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0AF60E08117BB45C0047E47D /* miniTimer */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D1107260486CEB800E47090 /* miniTimer */;
+		codeSenseManager = 0AF60E11117BB47A0047E47D /* Code sense */;
+		executables = (
+			0AF60E08117BB45C0047E47D /* miniTimer */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 293744251;
+			PBXWorkspaceStateSaveDate = 293744251;
+		};
+		perUserProjectItems = {
+			0A0E6CDD118231F9009A8B21 /* PBXTextBookmark */ = 0A0E6CDD118231F9009A8B21 /* PBXTextBookmark */;
+			0A0E6CDE118231F9009A8B21 /* PBXTextBookmark */ = 0A0E6CDE118231F9009A8B21 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0AF60E10117BB47A0047E47D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* miniTimer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 702}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 149}";
+			sepNavWindowFrame = "{{88, 130}, {980, 830}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* miniTimer */ = {
+		activeExec = 0;
+		executables = (
+			0AF60E08117BB45C0047E47D /* miniTimer */,
+		);
+	};
+	BC52D0670A3DF14C00042735 /* MTController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 858}}";
+			sepNavSelRange = "{250, 27}";
+			sepNavVisRange = "{22, 1387}";
+			sepNavWindowFrame = "{{157, 67}, {980, 830}}";
+		};
+	};
+	BC52D0680A3DF14C00042735 /* MTController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1678, 4875}}";
+			sepNavSelRange = "{13047, 0}";
+			sepNavVisRange = "{11825, 1930}";
+			sepNavWindowFrame = "{{44, 172}, {980, 830}}";
+		};
+	};
+	BC52D06E0A3DF1E200042735 /* MTWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 702}}";
+			sepNavSelRange = "{74, 585}";
+			sepNavVisRange = "{0, 666}";
+			sepNavWindowFrame = "{{42, 172}, {980, 830}}";
+		};
+	};
+	BC73B51D0C64C8E90010FE25 /* PTHotKeyCenter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 3757}}";
+			sepNavSelRange = "{1599, 19}";
+			sepNavVisRange = "{1092, 984}";
+			sepNavWindowFrame = "{{19, 193}, {980, 830}}";
+		};
+	};
+	BC73B5200C64C8E90010FE25 /* PTKeyCodeTranslator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 702}}";
+			sepNavSelRange = "{482, 0}";
+			sepNavVisRange = "{0, 657}";
+			sepNavWindowFrame = "{{610, 105}, {980, 830}}";
+		};
+	};
+	BC73B5210C64C8E90010FE25 /* PTKeyCodeTranslator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 1235}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{230, 387}";
+			sepNavWindowFrame = "{{200, 132}, {980, 830}}";
+		};
+	};
+}

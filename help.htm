@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>miniTimer Help</title>
+		<style>
+			html {
+				background-color: #132;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				width: 40em;
+				margin: 0 auto;
+				background-color: #fff;
+				color: #000;
+				padding: 0;
+			}
+			#header {
+				width: 100%;
+				padding: 20px 0;
+				color: #fff;
+				background: #000 url(miniTimer.png) 20px center no-repeat;
+				height: 100px;
+			}
+			h1 {
+				text-align: right;
+				margin: 0 30px;
+				margin-top: 30px;
+			}
+			#version {
+				margin: 0;
+				padding: 5px 15px;
+				border-bottom: solid 1px #000;
+				font-size: 0.8em;
+			}
+			#help {
+				margin: 15px;
+				font-size: 0.9em;
+				line-height: 1.4;
+			}
+			h2, h3, h4 {
+				border-bottom: solid 1px #ccc;
+			}
+			li {
+				list-style-type: square;
+				margin-bottom: 0.5em;
+			}
+			code {
+				display: block;
+				padding: 5px;
+				margin-bottom: 3px;
+				background: #eee;
+			}
+			a { color: #132; }
+			#byline {
+				padding: 1em;
+				border-top: solid 1px #000;
+				font-size: 0.8em;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>miniTimer</h1>
+		</div>
+		<p id="version">version 1.0</p>
+		
+		<div id="help">
+			<h2>Help</h2>
+			
+			<h3>Using miniTimer</h3>
+			<p>miniTimer is an unobtrusive, lightweight timer for Mac OS X. Sitting quietly at the edge of your screen, miniTimer keeps on you on schedule without being in your face.</p>
+			<p>Use the Timer menu to select a timer to start. You can also start a Custom Timer for any amount of time you want&mdash;up to billions of years on a 64-bit Mac.</p>
+			
+			<h3>Preferences</h3>
+			
+			<h4>Appearance</h4>
+			<p><strong>Timer Opacity</strong>: miniTimer can be set to completely opaque or completely transparent, or any value in between.</p>
+			<p><strong>Position on Screen</strong>: miniTimer can be configured to appear at the left, right, or bottom edge of your screen. If you have multiple monitors, miniTimer will use the most appropriate screen for the chosen edge.</p>
+	
+			<h4>Notifications</h4>
+			<p>When the timer is up, miniTimer can alert you three different ways: via an OS X alert dialog, by bouncing the miniTimer Dock icon, or with a <a href="http://growl.info">Growl notification</a>.</p>
+			<p><strong>Growl Notifications</strong>: If you have <a href="http://growl.info">Growl</a> installed on your Mac, miniTimer can notify you with a configurable message. Use the Growl preference pane in System Preferences to configure the alert. If you select that the Growl notification should be "sticky", it will remain on your screen until you click it. Otherwise, it will disappear after a short delay.</p>
+			
+			<h4>Hotkeys</h4>
+			<p>You can use a system-wide hotkey to open the Custom Timer drawer from any application. Click Set... to choose a hotkey or remove a previously set one.</p>
+			
+			<h3>AppleScript Support</h3>
+			<p>miniTimer can be controlled via AppleScript.</p>
+			<p><code> tell application "miniTimer" to ...</code></p>
+			<ul>
+				<li>
+					<code> time for "HH:MM:SS" </code>
+					Starts a timer for "HH:MM:SS" hours, minutes, and seconds.
+				</li>
+				<li>
+					<code> start custom timer </code>
+					Opens the Custom Timer drawer.
+				</li>
+				<li>
+					<code> reset </code>
+					Clears any running timer.
+				</li>
+				<li>
+					<code> get duration </code>
+					Returns the duration of the currently running timer, or 0 if none is running.
+				</li>
+				<li>
+					<code> get current time </code>
+					Returns the elapsed time of the currently running timer.
+				</li>
+			</ul>
+		</div>
+		<p id="byline">miniTimer, by <a href="http://www.kevingessner.com/">Kevin Gessner</a>. Copyright &copy; 2007-2008.</p>
+	</body>
+</html>
